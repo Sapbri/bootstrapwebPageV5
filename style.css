@@ -1,0 +1,37 @@
+.titleH1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.navColorFondo {
+    background-color: #55AA55;
+}
+
+.navUlColorFondo {
+    background-color: #88CC88;
+}
+
+.txtTitle {
+    font-family: 'Roboto', sans-serif;
+    color: white;    
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: green;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    color: black;    
+}
+
+.bgColorSocialMedia {
+    background-color: #88CC88;
+}
+
+.accordionTxt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: black;    
+}

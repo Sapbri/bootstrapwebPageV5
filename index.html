@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="icon/bug.svg" type="image/svg+xml" class="bi bi-bootstrap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js" defer></script>
+    <title>My Farm</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top m-0 p-0 navColorFondo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <img src="img/granjaLogo.png" alt="Logo">
+            </a>
+            <h1 class="m-0 titleH1 me-lg-auto">My Farm</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="w-100">
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav ms-auto px-4 px-sm-4 px-md-4 px-lg-0 px-xl-0 px-xxl-0 py-2 navUlColorFondo">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#animals">Animals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#pictures">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#socialMedia">Social Media</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0" id="home">
+        <div class="position-relative">
+            <img src="img/farmHome.jpg" class="img-fluid" alt="Farm">
+            <div class="position-absolute bottom-0 end-0 mb-3 me-3">
+                <p class="text-end text-white fw-bold m-0">Visit Us, Visit Our Farm</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl pt-5 px-5" id="animals">
+        <h2 class="subtitle fw-bold text-center my-3">ANIMALS</h2>
+        <div class="row d-flex align-items-start justify-content-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mb-3">
+                <div class="card">
+                    <img src="img/caballos.jpg" class="card-img-top" alt="Horses">
+                    <div class="card-body">
+                        <p class="card-text text-justify">En nuestra granja abierta al público tenemos una variedad de caballos, los cuales se encuentran dentro de un corral para compartir con ellos, como darle de comer, tocarlos y aplicar la terapia equina. Así mismo, también tenemos un circuito para los que quieran montar a caballo durante un rato.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mb-3">
+                <div class="card">
+                    <img src="img/vacas.png" class="card-img-top" alt="Cows">
+                    <div class="card-body">
+                        <p class="card-text text-justify">En nuestra granja abierta al público tenemos vacas, donde podrá ordeñarlas, observarlas, caminar cerca de ellas dentro de su corral o darles comida, pero desde la parte de afuera del corral para evitar accidentes. De todas formas se recomienda tener cuidado con los más pequeños.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mb-3">
+                <div class="card">
+                    <img src="img/pollos.jpg" class="card-img-top" alt="Chickens">
+                    <div class="card-body">
+                        <p class="card-text text-justify">En nuestra granja abierta al público tenemos pollos, estos se encuentran sueltos por todo el lugar, junto con sus pollitos, por lo cual pedimos que sigan las instrucciones de nuestros cuidadores para interactuar con los pollitos. También se les podrá dar comida. Tener cuidado por que picotean.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl pt-5 px-5" id="pictures">
+        <h2 class="subtitle fw-bold text-center my-3">PICTURES</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"> 
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"   aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/farm1.jpg" class="d-block w-100" alt="Imagen granja 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/farm2.jpg" class="d-block w-100" alt="Imagen granja 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/farm3.jpg" class="d-block w-100" alt="Imagen granja 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"     data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"     data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-xxl pt-5 px-5" id="location">
+        <h2 class="subtitle fw-bold text-center my-4">LOCATION</h2>    
+        <div class="d-flex justify-content-center align-items-center ratio ratio-4x3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213113.76524077659!2d-73.08816286569277!3d7.015887098246767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6849038b3ba5ff%3A0xf15af4b8fbac9003!2sPony%20Parque%20Hotel%20Mesa%20de%20Los%20Santos!5e0!3m2!1ses!2sco!4v1680978361083!5m2!1ses!2sco" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="container-xxl pt-4 pb-5 px-5 mt-5 bgColorSocialMedia" id="socialMedia">
+        <h2 class="subtitle fw-bold text-center mt-1 mb-4">SOCIAL MEDIA</h2>
+        <div class="accordion " id="accordionExample" >
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="bg-white accordion-button accordionTxt" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    CONTACT US
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul class="mb-0">
+                        <li class="nav-item accordionTxt">
+                            <a class="nav-link active text-decoration-underline" aria-current="page" target="_blank" href="https://www.instagram.com/ponyparque/?hl=es">Instagram</a>
+                        </li>
+                        <li class="nav-item accordionTxt">
+                            <a class="nav-link active text-decoration-underline" aria-current="page" target="_blank" href=https://es-la.facebook.com/PonyParque#">Facebook</a>
+                        </li>
+                        <li class="nav-item accordionTxt">
+                            <a class="nav-link active text-decoration-underline" aria-current="page" target="_blank" href="https://www.google.com/search?q=pony+parque+mesa+de+los+santos&hl=es&ei=jNAxZJL5GLiIkvQPieyYmAM&gs_ssp=eJwFwUEOQDAQAMC4SnxB9uJsm6qUJ_jFtrokRbEk9XszZdUurVI-ysomeizGBrMNve0G1NZpR4Z5xMzKEHfOsiM_IOqpPtPxwUn39QbYgxDMAbYkIHQ8SX5aHhtB&oq=pony+parque+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMhAILhCvARDHARCKBRBDEOoEMgUIABCABDILCC4QrwEQxwEQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIHCAAQigUQQzIFCAAQgAQ6CAgAEKIEELADOgsIABCJBRCiBBCwAzoTCAAQjwEQ6gIQtAIQjAMQ5QIYAToTCC4QjwEQ6gIQtAIQjAMQ5QIYAToKCC4QigUQ1AIQQzoHCC4QigUQQzoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOg0ILhCKBRDHARDRAxBDOg0IABCKBRCxAxCDARBDOg0ILhCKBRCxAxCDARBDOgsILhCABBCxAxCDAToNCC4QigUQxwEQrwEQQzoNCC4QigUQsQMQ1AIQQzoLCC4QgwEQsQMQgAQ6DQgAEIAEELEDEIMBEAo6CggAEIAEELEDEAo6BwgAEIAEEAo6DQguEK8BEMcBEIoFEEM6BwgAEA0QgAQ6DQguEA0QrwEQxwEQgARKBAhBGAFQygVYrRZgnx1oBHAAeACAAY8CiAHXEZIBBTAuNy41mAEAoAEBsAEKyAEFwAEB2gEECAEYCg&sclient=gws-wiz-serp">Google</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
